@@ -1,0 +1,7 @@
+---
+applications:
+- name: introscope-agent-hoster
+  memory: 512M
+  instances: 1
+  host: introscope-agent-hoster
+  path: target/introscope-agent-hoster-0.1.0.jar
